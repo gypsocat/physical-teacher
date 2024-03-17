@@ -48,7 +48,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "1f638",
-    name: "文案写手",
+    name: "体育老师",
     context: [
       {
         id: "writer-0",
@@ -59,12 +59,12 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gemini-pro",
       temperature: 1,
-      max_tokens: 2000,
+      max_tokens: 4000,
       presence_penalty: 0,
       frequency_penalty: 0,
-      sendMemory: true,
+      sendMemory: false,
       historyMessageCount: 4,
       compressMessageLengthThreshold: 1000,
     },
